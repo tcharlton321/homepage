@@ -6,6 +6,10 @@ body, canvas, div#root {
   height: 100%;
 }
 
+body {
+  background: #272730;
+}
+
 main {
   width: 100vw;
   color: rgb(0, 0, 0);
@@ -19,4 +23,7 @@ main {
   justify-content: center;
 }
 
+* {
+  color:rgb(163, 165, 49)
+}
 
