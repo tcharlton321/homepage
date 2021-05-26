@@ -10,10 +10,11 @@ export const CameraController = () => {
   useEffect(
     () => {
       const controls = new OrbitControls(camera, gl.domElement);
-      controls.enableZoom = false;
-
+      // controls.enablePan = false;
+      // controls.enableRotate = false;
+      // controls.enableZoom = false;
       controls.minDistance = 3;
-      controls.maxDistance = 20;
+      controls.maxDistance = 100;
       return () => {
         controls.dispose();
       };

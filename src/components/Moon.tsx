@@ -24,7 +24,6 @@ export const Moon: React.FC<MeshProps> = (props) => {
     {...props}
       ref={mesh}>
       <sphereGeometry attach="geometry" args={[2,32,32]}/>
-      {/* <meshStandardMaterial attach="material" color={hovered ? 'hotpink' : 'orange'} /> */}
       <meshStandardMaterial attach="material" map={texture} normalMap={normalMap}/>
     </mesh>
   )

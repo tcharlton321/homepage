@@ -1,7 +1,7 @@
 import { Canvas, MeshProps, useFrame } from '@react-three/fiber'
 import { useRef, useState } from 'react'
 
-export const Box: React.FC<MeshProps> = (props) => {
+export const Box_01: React.FC<MeshProps> = (props) => {
   // This reference will give us direct access to the mesh
   const mesh = useRef<THREE.Mesh>(null!)
   // Set up state for the hovered and active state

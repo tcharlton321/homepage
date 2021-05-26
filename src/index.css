@@ -11,19 +11,17 @@ body {
 }
 
 main {
-  width: 100vw;
-  color: rgb(0, 0, 0);
   z-index: 99;
   position: absolute;
-  width: 100%;
+  width: 350px;
   margin: 0px auto;
-  padding: 120px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 * {
-  color:rgb(163, 165, 49)
+  color:rgb(163, 165, 49);
 }
+
 
